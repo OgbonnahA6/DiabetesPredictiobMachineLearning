@@ -1,5 +1,6 @@
 # Diabetes Prediction Project Report
-________________________________________
+![image](https://github.com/user-attachments/assets/d47e7e78-3cce-479a-b307-f70550506099)
+
 ## 1. Project Description
 The Diabetes Prediction Project was designed to leverage machine learning techniques to predict the onset of diabetes using patient data.
 Diabetes is a critical global health concern, and early identification of at-risk individuals allows for timely interventions, improving patient outcomes and reducing healthcare costs.
