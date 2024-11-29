@@ -56,7 +56,7 @@ ________________________________________
   - Some models like Gradient Boosting lacked inherent interpretability, making it harder to explain predictions to stakeholders.
 
 ### Key Outcomes
-  - Gradient Boosting was selected as the final model due to its strong performance in predicting diabetic cases with a high AUC score.
+  - **Gradient Boosting** was selected as the final model due to its strong performance in predicting diabetic cases with a high AUC score.
   - The analysis provided actionable insights into the role of key predictors such as HbA1c_level, blood_glucose_level, hypertension, and smoking history.
   - The project successfully demonstrated the potential of machine learning in enhancing early detection of diabetes.
 
