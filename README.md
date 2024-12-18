@@ -10,28 +10,27 @@ ________________________________________
 - **Step 1: Data Exploration and Cleaning**
   - The dataset was explored to understand the distribution of variables and detect potential issues such as missing values, outliers, and class imbalance.
 - **Key observations:**
-  - The target variable (diabetes) was highly imbalanced (8.5% positive cases).
-  - Variables such as BMI, HbA1c_level, and blood_glucose_level showed significant outliers.
-  - Strong correlations were observed between diabetes and features like HbA1c_level and blood_glucose_level.
+  - The target variable **(diabetes)** was highly imbalanced (**8.5%** positive cases).
+  - Variables such as BMI, HbA1c Level, and blood glucose level showed significant outliers.
+  - Strong correlations were observed between diabetes and features like HbA1c level and blood glucose level.
 - **Step 2: Data Preprocessing**
-  - Outlier Treatment: Winsorization was applied to numerical variables (BMI, HbA1c_level, blood_glucose_level) to mitigate the impact of extreme values.
-  - Class Imbalance Handling:
+  - **Outlier Treatment:** Winsorization was applied to numerical variables (BMI, HbA1c level, blood glucose level) to mitigate the impact of extreme values.
+  - **Class Imbalance Handling:**
   - Oversampling using SMOTE (Synthetic Minority Oversampling Technique) to balance the dataset.
   - Class weighting was used for models like Logistic Regression and Random Forest.
   - Categorical Encoding: Variables such as gender and smoking_history were encoded using one-hot encoding.
 - **Step 3: Feature Engineering**
-  - Interaction terms (age × BMI, HbA1c × blood_glucose_level) were created to capture complex relationships between features.
+  - Interaction terms (Age × BMI, HbA1c × Blood glucose level) were created to capture complex relationships between features.
   - New variables such as hypertension × heart_disease were introduced to enhance the model’s predictive power.
 - **Step 4: Model Training and Evaluation**
-  - Models tested: Logistic Regression, Random Forest, Support Vector Classifier, and Gradient Boosting.
-  - Gradient Boosting emerged as the best-performing model with:
+  - **Models tested: Logistic Regression, Random Forest, Support Vector Classifier, and Gradient Boosting**.
+  - **Gradient Boosting** emerged as the best-performing model with:
     - **AUC Score: 0.979**
     - **Accuracy: 97.03%**
-
-  - Significant improvement in recall for diabetic cases compared to other models.
+  - Significant improvement in **Recall** for diabetic cases compared to other models.
 - **Step 5: Visualization and Insights**
   - Boxplots, bar charts, and correlation heatmaps were used to uncover key patterns:
-  - Elevated HbA1c_level and blood_glucose_level were strong indicators of diabetes.
+  - Elevated HbA1c level and Blood glucose level were strong indicators of diabetes.
   - Hypertension and smoking history were significant risk factors.
 ________________________________________
 ## 3. Challenges Faced
@@ -56,8 +55,8 @@ ________________________________________
 - **5. Interpretability**
   - Some models like Gradient Boosting lacked inherent interpretability, making it harder to explain predictions to stakeholders.
 
-### Key Outcomes
+## Key Outcomes
   - **Gradient Boosting** was selected as the final model due to its strong performance in predicting diabetic cases with a high AUC score.
-  - The analysis provided actionable insights into the role of key predictors such as HbA1c_level, blood_glucose_level, hypertension, and smoking history.
+  - The analysis provided actionable insights into the role of key predictors such as **HbA1c level, Blood glucose level, hypertension, and smoking history**.
   - The project successfully demonstrated the potential of machine learning in enhancing early detection of diabetes.
 
